@@ -8,7 +8,7 @@ import React, { useEffect, useRef, useState } from "react";
    ============================================================ */
 
 const CONFIG = {
-  name: "EAPCET Coaching Centre",
+  name: "Prem Power Solutions",
   examDate: "2027-04-29T09:00:00", // change to your exam date
   phone: "+91 98765 43210",
   email: "admissions@eapcetcentre.in",
@@ -251,7 +251,7 @@ function Courses() {
   return (
     <section id="courses" className="bg-[#F6F8FC] py-24">
       <div className="mx-auto max-w-7xl px-5">
-        <Heading title="Choose the program that fits you" sub="Every course includes weekly tests, doubt clearing and printed study material." />
+        <Heading title="Choose the program that fits you Prem Power Solutions" sub="Every course includes weekly tests, doubt clearing and printed study material." />
         <div className="mt-14 grid sm:grid-cols-2 xl:grid-cols-4 gap-7">
           {COURSES.map((c) => (
             <Reveal key={c.t}>
@@ -325,7 +325,7 @@ function Results() {
   return (
     <section id="results" className="bg-white py-24" onMouseEnter={() => setPause(true)} onMouseLeave={() => setPause(false)}>
       <div className="mx-auto max-w-5xl px-5">
-        <Heading center title="In our toppers' own words" />
+        <Heading center title="Prem Power Solutions" />
         <div className="relative mt-14 overflow-hidden rounded-3xl">
           <div className="flex transition-transform duration-700 ease-[cubic-bezier(.77,0,.18,1)]" style={{ transform: `translateX(-${i * 100}%)` }}>
             {STORIES.map((s) => (
